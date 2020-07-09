@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
+    # @の変数はViewでも利用可能になる。
     @users = User.all
   end
 
